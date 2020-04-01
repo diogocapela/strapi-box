@@ -1,3 +1,11 @@
+# Development
+
+database/*
+!database/.gitkeep
+public/uploads/*
+!public/uploads/.gitkeep
+build
+
 # macOS
 
 .DS_Store
@@ -49,13 +57,10 @@ $RECYCLE.BIN/
 *.out
 *.pid
 
-# Logs and Databases
+# Logs
 
 .tmp
 *.log
-*.sql
-*.sqlite
-*.sqlite3
 
 # Node.js
 
@@ -76,7 +81,6 @@ coverage
 
 exports
 .cache
-build
 
 # Miscellaneous
 
@@ -84,5 +88,3 @@ build
 ssl
 .idea
 nbproject
-public/uploads/*
-!public/uploads/.gitkeep

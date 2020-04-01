@@ -4,7 +4,7 @@
     "policy": ["block-all-mixed-content"]
   },
   "p3p": {
-    "enabled": false,
+    "enabled": true,
     "value": ""
   },
   "hsts": {
