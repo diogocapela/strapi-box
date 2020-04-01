@@ -1,0 +1,4 @@
+# Prevent search engines from seeing the site
+
+User-Agent: *
+Disallow: /

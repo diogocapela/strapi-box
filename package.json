@@ -1,0 +1,27 @@
+{
+  "name": "strapi-box",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "strapi": "3.0.0-beta.19.5",
+    "strapi-admin": "3.0.0-beta.19.5",
+    "strapi-utils": "3.0.0-beta.19.5",
+    "strapi-plugin-content-type-builder": "3.0.0-beta.19.5",
+    "strapi-plugin-content-manager": "3.0.0-beta.19.5",
+    "strapi-plugin-users-permissions": "3.0.0-beta.19.5",
+    "strapi-plugin-email": "3.0.0-beta.19.5",
+    "strapi-plugin-upload": "3.0.0-beta.19.5",
+    "strapi-connector-bookshelf": "3.0.0-beta.19.5",
+    "knex": "<0.20.0",
+    "sqlite3": "latest"
+  },
+  "strapi": {
+    "uuid": "deea13d4-3b76-4003-933c-4485b9a271fe"
+  }
+}
